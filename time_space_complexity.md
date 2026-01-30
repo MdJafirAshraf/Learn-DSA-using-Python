@@ -201,24 +201,4 @@ You can say this confidently 👇
 
 ---
 
-## ✅ Day 1 Summary (Save This)
 
-* **Big-O** → Worst case
-* **Big-Ω** → Best case
-* **Big-Θ** → Tight bound
-* Time = speed, Space = memory
-* Most interviews care about **Big-O**
-
----
-
-### 🔥 Tomorrow (Day 2)
-
-**Arrays – Traversal & Basics (Python + interview questions)**
-
-If you want:
-
-* 📌 LeetCode practice for Day 1
-* 📌 Printable notes
-* 📌 Daily 20-min routine
-
-Just say **“Next Day” 💪**
