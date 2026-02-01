@@ -5,13 +5,13 @@
 
 ## 1️⃣ Why Time & Space Complexity Matters (Real Life)
 
-💡 **Real-time example**
+**Real-time example**
 Imagine **Zomato searching restaurants**:
 
 * 10 restaurants → fast
 * 1,000,000 restaurants → slow if logic is bad
 
-👉 **DSA is about writing code that scales**
+**DSA is about writing code that scales**
 
 ---
 
@@ -23,7 +23,7 @@ We **ignore machine speed** and count **operations**.
 
 ---
 
-### 🔹 Big-O (Worst Case) – Most Important ⭐
+### 🔹 Big-O (Worst Case) – Most Important
 
 > “What is the **maximum time** my algorithm can take?”
 
@@ -40,7 +40,7 @@ def find_element(arr, target):
 * Worst case: element **not present**
 * Checks all `n` elements
 
-✅ **Time Complexity: O(n)**
+**Time Complexity: O(n)**
 
 > “Big-O represents the worst-case time complexity.”
 
@@ -60,7 +60,7 @@ target = 10
 * Found at **first index**
 * Only 1 operation
 
-✅ **Time Complexity: Ω(1)**
+**Time Complexity: Ω(1)**
 
 > “Big-Omega represents the best-case time complexity.”
 
@@ -80,7 +80,7 @@ def print_all(arr):
 
 * Always runs `n` times
 
-✅ **Θ(n)**
+**Θ(n)**
 
 > “Big-Theta represents the tight bound where best and worst cases are the same.”
 
@@ -103,7 +103,7 @@ def sum_two(a, b):
     return a + b
 ```
 
-✅ **Space: O(1)**
+**Space: O(1)**
 
 ---
 
@@ -117,7 +117,7 @@ def copy_array(arr):
     return new_arr
 ```
 
-✅ **Space: O(n)**
+**Space: O(n)**
 
 ---
 
@@ -132,11 +132,11 @@ def factorial(n):
 
 * Recursion stack = `n` calls
 
-✅ **Space: O(n)**
+**Space: O(n)**
 
 ---
 
-## 4️⃣ Common Time Complexities (Must Memorize 🔥)
+## 4️⃣ Common Time Complexities (Must Memorize)
 
 | Complexity | Meaning        | Example                |
 | ---------- | -------------- | ---------------------- |
@@ -148,35 +148,35 @@ def factorial(n):
 | O(2ⁿ)      | Very slow      | Recursion without memo |
 | O(n!)      | Worst          | Permutations           |
 
-📌 **Golden Rule**:
+**Golden Rule**:
 
 > Avoid **O(n²)** when **n is large**
 
 ---
 
-## 5️⃣ Interview Memory Trick 🧠
+## Interview Memory Trick
 
-### 📌 Single Loop?
+### Single Loop?
 
 ➡️ **O(n)**
 
-### 📌 Loop inside loop?
+### Loop inside loop?
 
 ➡️ **O(n²)**
 
-### 📌 Divide by half?
+### Divide by half?
 
 ➡️ **O(log n)**
 
-### 📌 Recursion?
+### Recursion?
 
 ➡️ **Check depth (stack space)**
 
 ---
 
-## 6️⃣ Typical Interview Question
+## Typical Interview Question
 
-❓ *What is the time complexity of this code?*
+*What is the time complexity of this code?*
 
 ```python
 for i in range(n):
@@ -184,18 +184,18 @@ for i in range(n):
         print(i, j)
 ```
 
-✅ **Answer**:
+**Answer**:
 
 * Two nested loops
 * Runs `n × n` times
 
-👉 **O(n²)**
+**O(n²)**
 
 ---
 
 ## 7️⃣ One-Line Interview Answer Template
 
-You can say this confidently 👇
+You can say this confidently 
 
 > “The time complexity is O(n) because the loop runs n times, and the space complexity is O(1) since no extra data structure is used.”
 
